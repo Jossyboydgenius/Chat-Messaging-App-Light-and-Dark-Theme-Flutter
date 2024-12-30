@@ -7,19 +7,22 @@
         {
             "name": "Chat-Messaging-App-Light-and-Dark-Theme",
             "request": "launch",
-            "type": "dart"
+            "type": "dart",
+            "args": ["--verbose"]
         },
         {
             "name": "Chat-Messaging-App-Light-and-Dark-Theme (profile mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "profile"
+            "flutterMode": "profile",
+            "args": ["--verbose"]
         },
         {
             "name": "Chat-Messaging-App-Light-and-Dark-Theme (release mode)",
             "request": "launch",
             "type": "dart",
-            "flutterMode": "release"
+            "flutterMode": "release",
+            "args": ["--verbose"]
         }
     ]
 }
